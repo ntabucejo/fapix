@@ -11,3 +11,5 @@ app.get("/", (request: Request, response: Response) => {
 });
 
 app.listen(port);
+
+module.exports = app;
